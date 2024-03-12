@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThriveInMind - Promoting Mental Health Awareness</title>
+    <meta name="description" content="ThriveInMind strives to enhance mental health awareness, offering valuable insights, resources, and support. Join us on the journey to better mental well-being.">
+    <meta name="keywords" content="mental health, mental wellness, mental wellbeing, mental health awareness, mental health education, mental health support, mental health resources, mental health advocacy, mental health promotion, mental health community">
+</head>
+
+    
+<body>
+
+        
+    <nav>
+        
+        <class="logo"><img src="images/logo.png" alt="ThriveInMind" style="width: 130px; vertical-align: middle;"></class>       
+
+                <a href="index.html">Home</a>
+                
+                    <a href="#contents" onclick="toggleDropdown('contents-dropdown')">Contents</a>
+                    <ul id="contents-dropdown" style="display: none;">
+                        <li><a href="introduction.html">Introduction</a></li>
+                        <li><a href="mental_disorders.html">Types of Mental Disorders</a></li>
+                        <li><a href="cope.html">How To Cope Up/Hotlines</a></li>
+                        <li><a href="misconceptions.html">Misconceptions about Mental Health</a></li>
+                        <li><a href="articles.html">Related Articles</a></li>
+                    </ul>
+                
+                <a href="about_us.html">About Us</a>
+                
+        </nav>
+
+    <section id="home">
+        <header>
+            <h1>ThriveInMind</h1>
+            <p>Mental Health Matters!</p>
+            <p>Inspiring Minds, Empowering Minds</p>
+        </header>
+    </section>
+
+
+    <section id="welcome">
+   <br>
+            <h2>Welcome to ThriveInMind</h2>
+            <p>"In the midst of chaos, there is also opportunity." - Sun Tzu</p>
+            <p>In today's fast-paced world, mental health stands as an essential pillar of our overall well-being. Acknowledging this fundamental truth, ThriveInMind emerges as a beacon of hope and support, dedicated to championing mental health awareness and fostering a compassionate community. Our mission is not merely to exist as a digital platform but to serve as a catalyst for positive change, empowering individuals to prioritize their mental well-being and find solace in shared experiences.</p>
+            <p>"In diversity, there is beauty and strength." - Maya Angelou</p>
+            <p>At the heart of ThriveInMind lies a profound belief in the significance of mental health. We recognize that navigating the complexities of the mind can be daunting, yet our commitment remains unwavering: to provide a sanctuary where individuals can access a wealth of resources, guidance, and support. From informative articles shedding light on various aspects of mental health to poignant personal stories that resonate with the depths of human experience, our platform offers a diverse array of insights tailored to every individual's journey.</p>
+            <p>"Our greatest glory is not in never falling, but in rising every time we fall." - Confucius</p>
+            <p>Beyond serving as a repository of knowledge, ThriveInMind serves as a safe haven, where individuals find solace in community support. Breaking free from the shackles of stigma and silence, we cultivate an environment of openness and understanding. Here, vulnerability is not a weakness but a strength, fostering connections built on empathy and compassion. Through active engagement and dialogue, we strive to normalize discussions surrounding mental health, erasing the barriers that prevent individuals from seeking help and support.</p>
+            <p>"Alone, we can do so little; together, we can do so much." - Helen Keller</p>
+            <p>Our vision extends beyond the confines of cyberspace; it encompasses a collective aspiration to create a world where mental health is prioritized and nurtured. By amplifying voices, sharing experiences, and advocating for change, we endeavor to spark a ripple effect of positivity and acceptance. Together, we challenge societal norms and perceptions, fostering a culture where seeking help is met with encouragement and understanding.</p>
+            <p>As individuals journey through the labyrinth of mental health, ThriveInMind stands as a steadfast companion, offering guidance, companionship, and hope. Through exploration, learning, and shared experiences, we reaffirm a fundamental truth: no one walks this path alone. ThriveInMind is more than just a website; it is a testament to the resilience of the human spirit and the power of community in nurturing mental well-being.</p>
+            <p>In conclusion, ThriveInMind serves as a beacon of hope and support in a world where mental health is often overlooked. With a steadfast commitment to fostering awareness, providing resources, and nurturing community support, we strive to create a world where mental well-being thrives, and every voice is heard and valued. Together, let us embark on this transformative journey, embracing resilience, empathy, and hope as we navigate the complexities of the human mind.</p>
+      
+    </section>
+<br>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: thriveinmind@gmail.com</p>
+                <p>Phone: 0991-604-0407</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>       
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2024 Thrive In Mind. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script>
+        function toggleDropdown(dropdownID) {
+            var dropdown = document.getElementById(dropdownID);
+            dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
+        }
+
+        function showContent(topic) {
+          
+            var sections = ["home", "about", "introduction", "blogs", "types", "cope", "misconceptions"];
+            sections.forEach(function(section) {
+                document.getElementById(section).style.display = (section === topic) ? "block" : "none";
+            });
+        }
+    </script>
+</body>
+
+</html>
+

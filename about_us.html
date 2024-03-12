@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThriveInMind - About Us</title>
+    <meta name="description" content="We're a group of passionate students dedicated to promoting mental health awareness and support.">
+    <meta name="keywords" content="ThriveInMind, mental health awareness, mental health support, student organization, mental wellness, mental health stigma, mental health resources">
+</head>
+
+<body>5
+
+    
+    <nav>
+        
+        <class="logo"><img src="images/logo.png" alt="ThriveInMind" style="width: 130px; vertical-align: middle;"></class>       
+   
+                <a href="index.html">Home</a>
+                
+                    <a href="#contents" onclick="toggleDropdown('contents-dropdown')">Contents</a>
+                    <ul id="contents-dropdown" style="display: none;">
+                        <li><a href="introduction.html">Introduction</a></li>
+                        <li><a href="mental_disorders.html">Types of Mental Disorders</a></li>
+                        <li><a href="cope.html">How To Cope Up/Hotlines</a></li>
+                        <li><a href="misconceptions.html">Misconceptions about Mental Health</a></li>
+                        <li><a href="articles.html">Related Articles</a></li>
+                    </ul>
+                
+                <a href="about_us.html">About Us</a>
+                
+        </nav>
+  
+    <section id="about-content">
+        <h2>About Us</h2>
+        <p>Welcome to ThriveInMind! We're a group of passionate students dedicated to promoting mental health awareness and support.
+            <br><br>As students with a shared commitment to mental wellness, we understand the importance of breaking down the stigma 
+            surrounding mental health. Through our website, we aim to provide valuable resources, share stories or articles, and foster 
+            a supportive community where everyone feels understood and encouraged.<br><br>Join us on our journey to create a more 
+            compassionate and resilient society. Together, we can make a difference in the lives of those struggling with mental
+             health challenges.<br><br>Thank you for joining us in this important mission!<br><br>With warmth and solidarity,
+             <br>ThriveInMind</p>
+    </section>
+
+    <br>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: thriveinmind@gmail.com</p>
+                <p>Phone: 0991-604-0407</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>       
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2024 Thrive In Mind. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleDropdown(dropdownID) {
+            var dropdown = document.getElementById(dropdownID);
+            dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
+        }
+
+        function showContent(topic) {
+           
+            var sections = ["home", "about", "introduction", "blogs", "types", "cope", "misconceptions"];
+            sections.forEach(function(section) {
+                document.getElementById(section).style.display = (section === topic) ? "block" : "none";
+            });
+        }
+    </script>
+</body>
+
+</html>
